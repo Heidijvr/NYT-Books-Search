@@ -4,6 +4,9 @@
 
 .navbar {
     border-radius: 0;
-    color: blueviolet;
+    background: #777;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'IM Fell DW Pica', serif;
   }
   

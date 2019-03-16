@@ -1,5 +1,6 @@
-.Jumbotron {
+.jumbotron {
     padding: 100px;
-    color: lightblue;
+    color: rgba(0, 0, 0, 0.808);
+    font-family: 'IM Fell DW Pica', serif;
   }
   
