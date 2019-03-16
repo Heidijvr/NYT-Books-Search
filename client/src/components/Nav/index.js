@@ -32,21 +32,20 @@ class Nav extends Component {
 
 render() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <Link className="navbar-brand" to="/">
-    NYT Google Books Search
-    </Link>
-    onClick{this.toggleNav}
-    <button 
-    className="navbar-toggler" 
-    type="button" 
-    data-toggle="collapse" 
-    data-target="#navbarNav" 
-    aria-controls="navbarNav" 
-    aria-expanded="false" 
-    aria-label="Toggle navigation">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to="/">
+          Google Books
+        </Link>
+        <button 
+          onClick={this.toggleNav}   
+          className="navbar-toggler" 
+          data-toggle="collapse" 
+          data-target="#navbarNav" 
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
 
-<span className="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
         <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
           <ul className="navbar-nav">
@@ -54,8 +53,7 @@ render() {
               <Link
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
-                to="/"
-              >
+                to="/">
                 Search
               </Link>
             </li>
@@ -63,8 +61,7 @@ render() {
               <Link
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
-                to="/saved"
-              >
+                to="/saved">
                 Saved
               </Link>
             </li>
