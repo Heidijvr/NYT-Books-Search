@@ -12,18 +12,16 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={q}
-          placeholder="Ready Player One"
+          placeholder="Title of the Book"
           name="q"
           onChange={handleInputChange}
-          required
-        />
+          required/>
       </div>
       <div className="pull-right">
         <button
           onClick={handleFormSubmit}
           type="submit"
-          className="btn btn-lg btn-danger float-right"
-        >
+          className="btn btn-lg btn-danger float-right">
           Search
         </button>
       </div>

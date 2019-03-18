@@ -7,4 +7,29 @@
       margin-bottom: 15px;
     }
   }
-  
+
+  .font {
+    font-family: 'IM Fell DW Pica', serif;
+  }
+
+  .subtitle {
+    font-family: 'IM Fell DW Pica', serif;
+  }
+
+  .h3 {
+    font-family: 'IM Fell DW Pica', serif;
+  }
+
+  /* body {
+    The image used
+    background-image: url("../images/pages.jpeg");
+    
+
+    Full height
+    height: 100%; 
+
+    Center and scale the image nicely
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */

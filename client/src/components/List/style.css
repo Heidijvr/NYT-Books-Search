@@ -1,5 +1,6 @@
 .list-group-item p {
-  font-size: 20px;
-  font-family: 'IM Fell DW Pica', serif;
+  font-size: 18px;
+  /* font-family: 'IM Fell DW Pica', serif; */
+  font-family: 'Merriweather', serif;
 }
 

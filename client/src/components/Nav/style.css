@@ -3,10 +3,18 @@
 } */
 
 .navbar {
-    border-radius: 0;
-    background: #777;
-    font-size: 26px;
-    font-weight: bold;
+    border-radius: 0;   
+    font-size: 24px;
+    /* font-weight: bold; */
     font-family: 'IM Fell DW Pica', serif;
   }
+
+  /* navbar-default .navbar-brand {
+    color: #225d81;
+  } */
+
+  /* .navbar {
+      color: orange;
+  } */
+
   

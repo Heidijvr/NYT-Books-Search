@@ -32,7 +32,8 @@ class Nav extends Component {
 
 render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light" >
+    //   <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
         <Link className="navbar-brand" to="/">
           Google Books
         </Link>
@@ -45,7 +46,7 @@ render() {
           aria-expanded="false" 
           aria-label="Toggle navigation">
 
-          <span className="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon"/>
         </button>
         <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
           <ul className="navbar-nav">
