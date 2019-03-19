@@ -6,17 +6,23 @@ The Google Boook Search Application is a React-based Search app. It requires cre
 **This application consists of the following 2 pages:**
 
 A *Search* page - where the user can search for books via the Google Books API and render them here. The user has the option to "View" a book, or "Save" a book, saving it to the Mongo database.
+
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/search.png" alt Searched Books>
 
-A *Saved* page - this page renders all books saved to the Mongo database. The user has the option to "View" the book, or "Delete" a book, removing it from the Mongo database.
 ---
+
+A *Saved* page - this page renders all books saved to the Mongo database. The user has the option to "View" the book, or "Delete" a book, removing it from the Mongo database.
+
+
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/saved.png" alt Saved Books>
 
 [**Try out the Application here!**](https://heidijvr-books-search.herokuapp.com/ "Heroku Homepage")
 
-This application is built with a full stack social network app: **MERN**
-MONGODB, Express, React, Node.js
+This application is built with a full stack social network app - **MERN** - which consists of: MONGODB, Express, React, and Node.js.
 
+The following npm packages are used on the client-side: axios, react, react-dom, react-router-dom, react-scripts, 
+
+The following npm packages are used on the server-side: axios, bootstrap, express, if-env, and mongoose.
 
 The API is based on the google books api: https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 
