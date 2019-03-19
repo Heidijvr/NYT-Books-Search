@@ -5,13 +5,13 @@ The Google Boook Search Application is a React-based Search app. It requires cre
 
 **This application consists of the following 2 pages:**
 
-A *Search* page - where the user can search for books via the Google Books API and render them here. The user has the option to "View" a book, or "Save" a book, saving it to the Mongo database.
+The user uses the *Search* page to search and render books via the Google Books API. This page offers the user the option to "View" or "Save" a book, saving the book to the Mongo database.
 
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/search.png" alt Searched Books>
 
 ---
 
-A *Saved* page - this page renders all books saved to the Mongo database. The user has the option to "View" the book, or "Delete" a book, removing it from the Mongo database.
+The *Saved* page renders all saved books to the Mongo database. This page offers the user the option to "View", or "Delete" a saved book, hereby removing it from the Mongo database.
 
 
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/saved.png" alt Saved Books>
