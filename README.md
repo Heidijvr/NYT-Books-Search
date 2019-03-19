@@ -28,4 +28,4 @@ The API is based on the google books api: https://www.googleapis.com/books/v1/vo
 
 ---
 
-This is an assignment is in fulfillment of the requirements for the bootcamp of the University of Washington (September 2018 - April 2019)
+This assignment is in fulfillment of the requirements for the bootcamp of the University of Washington (September 2018 - April 2019)
