@@ -11,7 +11,7 @@ The user uses the *Search* page to search and render books via the Google Books 
 
 ---
 
-The *Saved* page renders all saved books to the Mongo database. This page offers the user the option to "View", or "Delete" a saved book, hereby removing it from the Mongo database.
+The *Saved* page renders all saved books to the Mongo database. This page offers the user the option to "View" or "Delete" a saved book, hereby removing it from the Mongo database.
 
 
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/saved.png" alt Saved Books>
@@ -20,9 +20,9 @@ The *Saved* page renders all saved books to the Mongo database. This page offers
 
 This application is built with a full stack social network app - **MERN** - which consists of: MONGODB, Express, React, and Node.js.
 
-The following npm packages are used on the client-side: axios, react, react-dom, react-router-dom, react-scripts, 
+The following npm packages were used on the client-side: axios, react, react-dom, react-router-dom, react-scripts, 
 
-The following npm packages are used on the server-side: axios, bootstrap, express, if-env, and mongoose.
+The following npm packages were used on the server-side: axios, bootstrap, express, if-env, and mongoose.
 
 The API is based on the google books api: https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
 

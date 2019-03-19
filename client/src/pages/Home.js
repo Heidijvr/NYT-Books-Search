@@ -92,9 +92,10 @@ class Home extends Component {
                       description={book.volumeInfo.description}
                       image={book.volumeInfo.imageLinks.thumbnail}
                       Button={() => (
-                        <button
-                          onClick={() => this.handleBookSave(book.id)}>          
-                          Save
+                        <button 
+                        class="btn btn-secondary"
+                        onClick={() => this.handleBookSave(book.id)}>                                 
+                        Save                          
                         </button>
                       )}
                     />

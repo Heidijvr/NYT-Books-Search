@@ -16,7 +16,7 @@ function Book({ title, subtitle, authors, link, description, image, Button }) {
             <a className="btn btn-secondary" target="_blank" rel="noopener noreferrer" href={link}>
               View
             </a>
-            <Button />
+            <Button/>
           </div>
         </Col>
       </Row>
