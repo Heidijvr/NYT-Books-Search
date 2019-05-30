@@ -1,17 +1,17 @@
 # React Google Book Search
 
 
-The Google Book Search is a React-based Search app. It requires creating React components and utilizing React lifecycle methods to query and display books based on user searches. It also involves using Node, Express and MongoDB so that users can save books to review or purchase later.
+The Google Book Search is a React-based Search application. a Search page (home page) searches and renders books via the Google Books API. This page gives the option to "View" or "Save" a book. The Save page renders all saved books to the Mongo database. This page offers the user the option to "View" or "Delete" a saved book, hereby removing it from the Mongo database.
 
 **This application consists of the following 2 pages:**
 
-The user uses the *Search* page to search and render books via the Google Books API. This page offers the user the option to "View" or "Save" a book, saving the book to the Mongo database.
+The *Search* page which offers the user the option to "View" or "Save" a book.
 
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/search.png" alt Searched Books>
 
 ---
 
-The *Saved* page renders all saved books to the Mongo database. This page offers the user the option to "View" or "Delete" a saved book, hereby removing it from the Mongo database.
+The *Saved* which page offers the user the option to "View" or "Delete" a saved book.
 
 
 <img src="https://github.com/Heidijvr/NYT-Books-Search/blob/master/assets/images/saved.png" alt Saved Books>
