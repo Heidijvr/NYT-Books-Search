@@ -1,7 +1,7 @@
 # React Google Book Search
 
 
-The Google Boook Search Application is a React-based Search app. It requires creating React components, helper/util functions, and utilizing React lifecycle methods, to query and display books based on user searches. It also involves using Node, Express and MongoDB so that users can save books to review or purchase later.
+The Google Book Search is a React-based Search app. It requires creating React components and utilizing React lifecycle methods to query and display books based on user searches. It also involves using Node, Express and MongoDB so that users can save books to review or purchase later.
 
 **This application consists of the following 2 pages:**
 
